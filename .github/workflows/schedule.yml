@@ -3,7 +3,7 @@ name: Roco Merchant Notifier
 on:
   schedule:
    # 北京时间 08:05, 12:05, 16:05, 20:05 运行
-    - cron: '5 0,4,8,12 * * *'
+    - cron: '17 0,4,8,12 * * *'
   workflow_dispatch:
 
 jobs:
